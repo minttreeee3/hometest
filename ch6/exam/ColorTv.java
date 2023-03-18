@@ -22,7 +22,7 @@ public class ColorTv extends Tv {
 		System.out.println(super.getSize()+"인치, "+color+"컬러");
 	}
 	
-	
+	// 왜안올라감
 	
 
 }
