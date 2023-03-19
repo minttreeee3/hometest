@@ -99,4 +99,5 @@ replay_pid*
 
 .classpath
 .project
+.class
 [crs]*/.gitignore
