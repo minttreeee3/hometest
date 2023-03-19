@@ -1,7 +1,7 @@
 package register;
 
 public class Member {
-	
+
 	// 속성 - 아이디(id), 이름(name), 주소(address), 이메일(email), 나이(정수)
 	// 외부에서 접근 불가능하게 선언하기
 	private String id;
@@ -9,10 +9,9 @@ public class Member {
 	private String address;
 	private String email;
 	private int age;
-		
-	
-	//생성자(모든 속성을 초기화할 수 있는 상태)
-	
+
+	// 생성자(모든 속성을 초기화할 수 있는 상태)
+
 	public Member(String id, String name, String address, String email, int age) {
 		super();
 		this.id = id;
@@ -22,9 +21,7 @@ public class Member {
 		this.age = age;
 	}
 
-	
-	//get/set
-	
+	// get/set
 
 	public String getId() {
 		return id;
@@ -66,21 +63,12 @@ public class Member {
 		this.age = age;
 	}
 
-		
-	
-	//toString
-	
+	// toString
+
 	@Override
 	public String toString() {
 		return "Member [id=" + id + ", name=" + name + ", address=" + address + ", email=" + email + ", age=" + age
 				+ "]";
 	}
-	
-	
-		
-	
-	
-	
-	
 
 }
