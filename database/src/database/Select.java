@@ -42,7 +42,7 @@ public class Select {
 			// xe   => 기본 sid이름  
 			String url = "jdbc:oracle:thin:@localhost:1521:xe";
 			String user = "scott";
-			String password = "tiger";
+			String password = "TIGER";
 			
 			con = DriverManager.getConnection(url, user, password);
 //			if(con!=null) {
